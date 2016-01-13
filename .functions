@@ -244,3 +244,20 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+# Wipe a Drupal site.
+function dwipe() {
+	drush sql-drop -y
+	sudo rm -rf sites/default/files
+	sudo mkdir sites/default/files
+	sudo chmod 777 sites/default/files
+}
+
+# Install a D8 site
+function d8() {
+  cd sites/default/
+  cp default.services.yml services.yml
+  cp default.settings.php settings.php
+  sudo chmod 777 se*
+  cd -
+}
