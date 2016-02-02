@@ -1,8 +1,7 @@
-# Compiled Python files
-*.pyc
-
 # Folder view configuration files
 .DS_Store
+.AppleDouble
+.LSOverride
 Desktop.ini
 
 # Thumbnail cache files
@@ -12,3 +11,70 @@ Thumbs.db
 # Files that might appear on external disks
 .Spotlight-V100
 .Trashes
+
+# Jekyll
+_site/
+.sass-cache/
+
+# Icon must end with two \r
+Icon
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# SASS
+.sass-cache
+*.css.map
+
+# Sublime Text
+## cache files for sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+## workspace files are user-specific
+*.sublime-workspace
+
+# Composer
+composer.phar
+vendor/
+
+# Drupal
+## Ignore configuration files that may contain sensitive information.
+sites/*/*settings*.php
+
+## Ignore paths that contain generated content.
+files/
+sites/*/files
+sites/*/private
+
+# Ignore archive files.
+*.7z
+*.dmg
+*.gz
+*.iso
+*.phar
+*.rar
+*.tar
+*.zip
+
+# Ignore database exports.
+*.*sql
+
+# Ignore Vagrant directories.
+.vagrant/
+
+# Ignore logs.
+*.log
+
+# Ignore IDE and text editor files.
+.idea/
+*.sublime-*
+
+# Ignore temporary directories.
+cache/
+tmp/
