@@ -1,0 +1,6 @@
+{
+    "require": {
+        "drush/drush": "dev-master",
+        "drupal/console": "dev-master"
+    }
+}
